@@ -648,30 +648,17 @@ h1,
   margin: 1rem;
 }
 
-.m-auto{
-  margin: auto;
-}
-
-.m-10{
-  margin: 2.5rem;
-}
-
-.m-1{
-  margin: 0.25rem;
-}
-
 .m-8{
   margin: 2rem;
+}
+
+.m-auto{
+  margin: auto;
 }
 
 .mx-1{
   margin-left: 0.25rem;
   margin-right: 0.25rem;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
 }
 
 .mx-2{
@@ -749,16 +736,8 @@ h1,
   margin-top: 0.25rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
 .mt-2{
   margin-top: 0.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .block{
@@ -822,10 +801,6 @@ h1,
   height: 100vh;
 }
 
-.h-\[400px\]{
-  height: 400px;
-}
-
 .min-h-screen{
   min-height: 100vh;
 }
@@ -875,18 +850,6 @@ h1,
   width: 100vw;
 }
 
-.w-\[1000px\]{
-  width: 1000px;
-}
-
-.w-\[100px\]{
-  width: 100px;
-}
-
-.w-\[1400px\]{
-  width: 1400px;
-}
-
 .min-w-\[250px\]{
   min-width: 250px;
 }
@@ -897,19 +860,6 @@ h1,
 
 .min-w-\[800px\]{
   min-width: 800px;
-}
-
-.min-w-min{
-  min-width: -moz-min-content;
-  min-width: min-content;
-}
-
-.min-w-\[\]{
-  min-width: ;
-}
-
-.min-w-\[1000px\]{
-  min-width: 1000px;
 }
 
 .max-w-screen-lg{
@@ -934,6 +884,14 @@ h1,
 
 .resize-none{
   resize: none;
+}
+
+.scroll-mr-8{
+  scroll-margin-right: 2rem;
+}
+
+.scroll-p-10{
+  scroll-padding: 2.5rem;
 }
 
 .list-none{
@@ -1028,6 +986,10 @@ h1,
 
 .overflow-y-auto{
   overflow-y: auto;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .whitespace-nowrap{
@@ -1605,10 +1567,6 @@ h1,
 
   .sm\:w-11\/12{
     width: 91.666667%;
-  }
-
-  .sm\:w-\[250px\]{
-    width: 250px;
   }
 
   .sm\:w-\[240px\]{
